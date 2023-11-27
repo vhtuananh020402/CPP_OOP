@@ -12,6 +12,16 @@
 | Polymorphism   |             |
 
 
+## Build command
+```bash
+g++ -Wall -std=c++17 \"${file}\" -o \"${file_base_name}\"
+```
+
+## Measure time execution
+```
+Measure-Command {./a.out}
+```
+
 ## Folder and files explanation
 📁 project
 
