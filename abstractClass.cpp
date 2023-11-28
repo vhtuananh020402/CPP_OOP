@@ -22,6 +22,12 @@ class Shape {
 
 
 class Triangle : public Shape {
+    private
+
+    public:
+        double getArea() {
+            return 
+        }
     
 };
 

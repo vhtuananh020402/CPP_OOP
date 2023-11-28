@@ -10,6 +10,11 @@
 | Encapsulation  |             |
 | Inheritance    |             |
 | Polymorphism   |             |
+| Overloading    |             |
+| Overwriting    |             |
+| Aggregation    |             |
+| Composition    |             |
+| Increment      |             |
 
 
 ## Build command
@@ -17,7 +22,7 @@
 g++ -Wall -std=c++17 \"${file}\" -o \"${file_base_name}\"
 ```
 
-## Measure time execution
+## Measure time execution (Powershell 7)
 ```
 Measure-Command {./a.out}
 ```
